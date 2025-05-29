@@ -28,6 +28,12 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 Зарегистрируйтесь на MongoDB Atlas.
 
 Создайте новый кластер и пользователя.
+Находясь в папке server, установите mongodb
+```
+cd server
+npm install mongodb
+```
+Для подключения к базе данных, выберите connect->drivers->node.js
 
 Скопируйте строку подключения:
 mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
