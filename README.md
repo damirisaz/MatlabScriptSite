@@ -17,9 +17,10 @@ git clone https://github.com/damirisaz/MatlabScriptSite.git
 cd MatlabScriptSite
 
 ```
-Установите npm и node.js
+Установите npm и node.js и разрешить его использование (если есть необходимость)
+https://nodejs.org/en/download
 ```
-
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 ### 2. Работа с базой данных
