@@ -35,8 +35,8 @@ npm install mongodb
 ```
 Для подключения к базе данных, выберите connect->drivers->node.js
 
-Скопируйте строку подключения:
-mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+Скопируйте строку подключения и вставьте в свой index.js в server, по примеру имеющейся там ссылки:
+mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority 
 
 Подставьте свои данные в .env. (Крайне важно установить все параметры в env, в качестве порта можно использовать 3002, в качестве JWT_SECRET любую комбинацию латиницы и цифр наугад.
 
