@@ -59,12 +59,12 @@ export const gradeTest = async (req, res) => {
         
        
 
-        // Здесь ты можешь по желанию проставить оценку:
+       
         const score = isCorrect ? 100 : 0;
 
         studentTest.score = score;
         studentTest.status = "graded";
-        studentTest.result = isCorrect; // опционально, если добавишь поле result: Boolean
+        studentTest.result = isCorrect; 
         await studentTest.save();
 
 
